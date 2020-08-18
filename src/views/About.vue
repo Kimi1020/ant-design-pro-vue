@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <a-button>Submit</a-button>
   </div>
 </template>
+
+<script>
+import { Button } from "ant-design-vue";
+
+export default {
+  name: "About",
+  components: {
+    AButton: Button
+  }
+};
+</script>
+
+<style></style>
